@@ -20,9 +20,6 @@ from isal import igzip, isal_zlib
 import multiprocessing
 from multiprocessing import Pool, cpu_count
 
-###### Version and Date
-PROG_VERSION = '0.1.0'
-PROG_DATE = '2022-06-16'
 
 ###### Usage
 usage = '''
@@ -175,3 +172,4 @@ def main():
 if __name__ == "__main__":
     main()
     
+
